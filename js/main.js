@@ -116,6 +116,13 @@
   $$('[data-weg]').forEach(function (a) { a.addEventListener('click', function () { waehle('weg', a.getAttribute('data-weg')); }); });
   $$('[data-bereich]').forEach(function (a) { a.addEventListener('click', function () { waehle('bereich', a.getAttribute('data-bereich')); }); });
 
+  /* Dateiauswahl */
+  var datei = $('#b-datei'), dname = $('#b-datei-name');
+  if (datei) datei.addEventListener('change', function () {
+    var n = datei.files.length;
+    dname.textContent = n === 0 ? 'noch keine gewählt' : (n === 1 ? datei.files[0].name : n + ' Dateien gewählt');
+  });
+
   /* Mengenregler */
   var stufen = ['unter 5.000 Stück', '5.000 bis 10.000 Stück', '10.000 bis 50.000 Stück', '50.000 bis 250.000 Stück', 'über 250.000 Stück', 'noch offen'];
   var menge = $('#a-menge'), mout = $('#a-menge-wert');

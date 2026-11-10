@@ -319,3 +319,10 @@ html.no-motion .etikett{transform:rotate(-2.2deg)!important}
   .regler output{min-width:0}
 }
 [hidden]{display:none!important}
+.feldtitel{display:block;font-weight:600;margin-bottom:.45rem}
+.datei{position:relative;display:flex;align-items:center;gap:.9rem;flex-wrap:wrap;cursor:pointer}
+.datei input{position:absolute;opacity:0;width:1px;height:1px}
+.datei__knopf{font:600 .92rem/1 var(--text);padding:.7rem 1rem;border:1.5px solid var(--tinte);border-radius:999px;background:#fff;color:var(--tinte)}
+.datei:hover .datei__knopf{background:var(--tinte);color:#fff}
+.datei input:focus-visible+.datei__knopf{outline:3px solid var(--fokus);outline-offset:2px}
+.datei__name{font-size:.92rem;color:var(--grau)}

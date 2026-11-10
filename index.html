@@ -8,7 +8,7 @@
 <meta name="description" content="Unverbindlicher Entwurf: PharCoNa entwickelt, produziert und füllt Kosmetik, Nahrungsergänzung und freiverkäufliche Arzneimittel in Ahaus.">
 <link rel="preload" href="fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/hanken-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="css/style.css?v=2">
+<link rel="stylesheet" href="css/style.css?v=3">
 <script>try{if(localStorage.getItem('pc-motion')==='off')document.documentElement.classList.add('no-motion')}catch(e){}document.documentElement.classList.add('js')</script>
 </head>
 <body>
@@ -445,8 +445,12 @@
         </div>
         <p class="feldhilfe" id="b-rueck">Telefon oder E-Mail genügt, damit wir uns bei dir melden können.</p>
         <div class="feld">
-          <label for="b-datei">Lebenslauf oder Zeugnisse <span class="optional">(Angabe optional)</span></label>
-          <input id="b-datei" name="datei" type="file" accept=".pdf,.jpg,.jpeg,.png,.doc,.docx" multiple>
+          <span class="feldtitel" id="b-datei-titel">Lebenslauf oder Zeugnisse <span class="optional">(Angabe optional)</span></span>
+          <label class="datei">
+            <input id="b-datei" name="datei" type="file" accept=".pdf,.jpg,.jpeg,.png,.doc,.docx" multiple aria-labelledby="b-datei-titel b-datei-knopf b-datei-name">
+            <span class="datei__knopf" id="b-datei-knopf">Dateien auswählen</span>
+            <span class="datei__name" id="b-datei-name">noch keine gewählt</span>
+          </label>
         </div>
         <div class="feld">
           <label for="b-text">Ein paar Sätze zu dir <span class="optional">(Angabe optional)</span></label>
@@ -574,6 +578,6 @@
   </div>
 </footer>
 
-<script src="js/main.js?v=1" defer></script>
+<script src="js/main.js?v=2" defer></script>
 </body>
 </html>
