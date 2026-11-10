@@ -55,7 +55,8 @@ h1,h2,h3,h4{font-family:var(--titel);line-height:1.08;margin:0}
 .kopf{position:sticky;top:0;z-index:50;background:rgba(245,247,247,.92);backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid transparent;transition:border-color .3s}
 .kopf.ist-gescrollt{border-bottom-color:var(--linie)}
 .kopf__in{width:var(--rahmen);margin-inline:auto;display:flex;align-items:center;gap:1.5rem;min-height:4.5rem}
-.marke{position:relative;display:inline-flex;align-items:center;text-decoration:none;color:var(--schiefer);padding:.3rem 0 .3rem .2rem}
+.marke{position:relative;display:inline-flex;align-items:center;text-decoration:none;padding:.3rem 0}
+.marke__logo{height:2.7rem;width:auto}
 .marke__bogen{position:absolute;left:-.35rem;top:50%;width:3.1rem;height:2rem;transform:translateY(-52%);fill:#c3ced1}
 .marke__wort{position:relative;font:560 1.42rem/1 var(--titel);font-stretch:118%;letter-spacing:.02em;color:#3c4a51}
 .marke__co{color:#8a989e}
@@ -304,7 +305,7 @@ html.no-motion .etikett{transform:rotate(-2.2deg)!important}
   body{font-size:1rem}
   .kopf__in{gap:.8rem;min-height:4rem}
   .knopf--klein.kopf-anfrage{display:none}
-  .marke__wort{font-size:1.2rem}
+  .marke__logo{height:2.25rem}
   .wege__paar,.feld--paar{grid-template-columns:1fr}
   .stelle summary{grid-template-columns:1fr 1.6rem}
   .stelle__marken{grid-column:1;justify-content:flex-start}
