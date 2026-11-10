@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>PharCoNa GmbH, Ahaus – Entwicklung und Herstellung für Handels- und Eigenmarken (Entwurf)</title>
+<meta name="description" content="Unverbindlicher Entwurf: PharCoNa entwickelt, produziert und füllt Kosmetik, Nahrungsergänzung und freiverkäufliche Arzneimittel in Ahaus.">
+<link rel="preload" href="fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/hanken-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css?v=1">
+<script>try{if(localStorage.getItem('pc-motion')==='off')document.documentElement.classList.add('no-motion')}catch(e){}document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+
+<header class="kopf" id="kopf">
+  <div class="kopf__in">
+    <a class="marke" href="#top" aria-label="PharCoNa GmbH, zur Startseite">
+      <svg class="marke__bogen" viewBox="0 0 60 34" aria-hidden="true"><path d="M58 4C36-2 6 4 3 17c-2 9 12 15 34 14C16 30 7 24 9 17 12 8 33 3 58 4Z"/></svg>
+      <span class="marke__wort">PHAR<span class="marke__co">C<small>o</small></span>NA</span>
+    </a>
+    <nav class="nav" aria-label="Hauptmenü">
+      <ul>
+        <li><a href="#wege">Leistungen</a></li>
+        <li><a href="#linie">So entsteht ein Produkt</a></li>
+        <li><a href="#werk">Qualität</a></li>
+        <li><a href="#karriere">Karriere <span class="zahl" aria-label="13 offene Stellen">13</span></a></li>
+      </ul>
+    </nav>
+    <div class="kopf__rechts">
+      <a class="sprache" href="en.html" hreflang="en" lang="en" aria-label="English version">EN</a>
+      <a class="knopf knopf--klein" href="#anfrage">Anfrage</a>
+      <button class="menue" type="button" aria-expanded="false" aria-controls="mobilnav"><span class="menue__strich" aria-hidden="true"></span><span class="sr">Menü</span></button>
+    </div>
+  </div>
+  <nav class="mobilnav" id="mobilnav" aria-label="Menü" hidden>
+    <ul>
+      <li><a href="#wege">Leistungen</a></li>
+      <li><a href="#linie">So entsteht ein Produkt</a></li>
+      <li><a href="#werk">Qualität und Werk</a></li>
+      <li><a href="#karriere">Karriere · 13 offene Stellen</a></li>
+      <li><a href="#anfrage">Anfrage</a></li>
+      <li><a href="en.html" lang="en" hreflang="en">English</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="inhalt">
+
+<!-- HERO: Etikett -->
+<section class="hero" id="top" aria-labelledby="hero-titel">
+  <div class="hero__in">
+    <div class="hero__text">
+      <h1 id="hero-titel" class="hero__titel">Auf dem Etikett steht Ihr Name.</h1>
+      <p class="hero__unter">Entwickelt, hergestellt und abgefüllt wird in Ahaus: Kosmetik, Nahrungsergänzung und freiverkäufliche Arzneimittel für Lebensmittelhandel, Drogeriemärkte und Markenartikler in ganz Europa.</p>
+      <div class="hero__wege">
+        <a class="knopf" href="#anfrage">Projekt anfragen</a>
+        <a class="stellenlink" href="#karriere"><span class="stellenlink__zahl">13</span><span>offene Stellen in Ahaus<br><small>Produktion, Labor, Büro, Ausbildung</small></span></a>
+      </div>
+    </div>
+
+    <figure class="hero__bild">
+      <img src="img/hero-glas.jpg" srcset="img/hero-glas-800.jpg 800w, img/hero-glas.jpg 1067w" sizes="(min-width: 960px) 40vw, 92vw" width="1067" height="1600" alt="Drei Glasröhrchen mit klaren und cremigen Flüssigkeiten vor hellem Hintergrund" fetchpriority="high">
+      <figcaption class="bildhinweis">Beispielbild</figcaption>
+
+      <div class="etikett" aria-labelledby="etikett-titel">
+        <div class="etikett__kopf">
+          <span id="etikett-titel" class="etikett__klein">Hergestellt für</span>
+          <span class="etikett__klein etikett__ch" aria-hidden="true">Ch.-B. AH&nbsp;0611</span>
+        </div>
+        <label class="etikett__feld">
+          <span class="sr">Probieren Sie es aus: Ihr Markenname auf dem Etikett</span>
+          <input id="marke-eingabe" type="text" maxlength="22" value="" placeholder="Ihre Marke" autocomplete="off" spellcheck="false">
+          <svg class="etikett__stift" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 14.5V17h2.5l8-8L11 6.5l-8 8Zm11.7-7.2a.7.7 0 0 0 0-1l-1.6-1.6a.7.7 0 0 0-1 0L11.8 6 14 8.2l.7-.9Z"/></svg>
+        </label>
+        <p class="etikett__art"><span id="etikett-art">Pflegende Handcreme</span> · <span id="etikett-menge">75 ml</span></p>
+        <div class="etikett__fuss">
+          <p>Entwickelt, hergestellt und abgefüllt in Ahaus, Münsterland.</p>
+          <svg class="etikett__code" id="strichcode" viewBox="0 0 120 30" preserveAspectRatio="none" aria-hidden="true"></svg>
+        </div>
+        <p class="etikett__tipp" id="etikett-tipp">Tippen Sie Ihren Markennamen ein.</p>
+      </div>
+    </figure>
+  </div>
+</section>
+
+<!-- ZWEI WEGE -->
+<section class="wege" id="wege" aria-labelledby="wege-titel">
+  <div class="rahmen">
+    <h2 id="wege-titel" class="titel">Zwei Wege zu Ihrem Produkt</h2>
+    <p class="vorspann">Je nach Projekt übernimmt PharCoNa den ganzen Weg oder genau den Teil, den Sie brauchen.</p>
+    <div class="wege__paar">
+      <article class="weg zeigen">
+        <p class="weg__nr" aria-hidden="true">A</p>
+        <h3>Komplett aus einer Hand</h3>
+        <p>Von der Produktentwicklung über die Verpackungsgestaltung bis zu Abfüllung, Verpackung und Vertrieb. Grundlage ist ein großer Bestand an eigenen, getesteten Rezepturen und Entwicklungen.</p>
+        <ul class="haken">
+          <li>Eigene Rezepturen als Ausgangspunkt</li>
+          <li>Muster, Stabilitäts- und Anwendungstests im eigenen Labor</li>
+          <li>Verpackung, Abfüllung, Versand an Ihre Lager</li>
+        </ul>
+        <a class="pfeillink" href="#anfrage" data-weg="Neues Produkt entwickeln">Neues Produkt anfragen</a>
+      </article>
+      <article class="weg zeigen">
+        <p class="weg__nr" aria-hidden="true">B</p>
+        <h3>Lohnherstellung nach Ihrer Vorgabe</h3>
+        <p>Klassische Lohnherstellung: produziert wird streng nach Ihren Vorgaben, auf Wunsch mit Rohstoffen und Packmitteln, die Sie selbst beistellen.</p>
+        <ul class="haken">
+          <li>Ihre Rezeptur, Ihre Spezifikation</li>
+          <li>Beigestellte Rohstoffe und Packmittel möglich</li>
+          <li>Herstellung, Abfüllung und Konfektionierung in einem Werk</li>
+        </ul>
+        <a class="pfeillink" href="#anfrage" data-weg="Lohnherstellung nach Vorgabe">Lohnherstellung anfragen</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- SORTIMENT -->
+<section class="sortiment" id="sortiment" aria-labelledby="sortiment-titel">
+  <div class="rahmen sortiment__in">
+    <div class="sortiment__kopf">
+      <h2 id="sortiment-titel" class="titel">Was in Ahaus entsteht</h2>
+      <figure class="sortiment__bild zeigen">
+        <img src="img/herstellung-800.jpg" srcset="img/herstellung-800.jpg 800w, img/herstellung.jpg 1067w" sizes="(min-width: 960px) 30vw, 92vw" width="1067" height="1600" loading="lazy" alt="Mitarbeiterin in Laborkleidung gibt eine Zutat in einen Rührbehälter mit cremiger Masse">
+        <figcaption class="bildhinweis">Beispielbild</figcaption>
+      </figure>
+    </div>
+    <ol class="bereiche">
+      <li class="bereich zeigen">
+        <h3>Kosmetik</h3>
+        <p>Reinigende und pflegende Produkte des täglichen Bedarfs: Haut- und Gesichtspflege, Badezusätze, Babyversorgung, Spezialpflege. Auf Basis eigener Entwicklungen oder nach Kundenvorgabe, laufend mit neuen Wirkstoffen und Verpackungsformen.</p>
+        <a class="pfeillink" href="#anfrage" data-bereich="Kosmetik">Kosmetik anfragen</a>
+      </li>
+      <li class="bereich zeigen">
+        <h3>Nahrungsergänzung</h3>
+        <p>Getestete Nahrungsergänzungsmittel, zum Teil passend zu äußerlich angewandter Kosmetik. Ein fester Sortimentsbestandteil in den meisten Handelsformaten.</p>
+        <a class="pfeillink" href="#anfrage" data-bereich="Nahrungsergänzung">Nahrungsergänzung anfragen</a>
+      </li>
+      <li class="bereich zeigen">
+        <h3>Freiverkäufliche Arzneimittel</h3>
+        <p>Zugelassene Rezepturen für Fertigarzneimittel, auf die Kunden ohne eigene Zulassung zurückgreifen können. Zum Beispiel Arzneibäder in den Bereichen Beruhigung, Durchblutung, Entspannung, Rheuma und Erkältung.</p>
+        <a class="pfeillink" href="#anfrage" data-bereich="Freiverkäufliche Arzneimittel">Arzneimittel anfragen</a>
+      </li>
+      <li class="bereich zeigen">
+        <h3>Sticks und Vierrandsiegelbeutel</h3>
+        <p>Portionierte Abfüllung von Flüssigkeiten und Feststoffen: Kosmetik in Reise- und Probiergrößen, Granulate als Alternative zu Tabletten und Kapseln, die manche schwer schlucken.</p>
+        <a class="pfeillink" href="#anfrage" data-bereich="Sticks und Beutel">Sticks anfragen</a>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- PRODUKTIONSLINIE -->
+<section class="linie" id="linie" aria-labelledby="linie-titel">
+  <div class="rahmen">
+    <h2 id="linie-titel" class="titel titel--hell">Vom Rohstoff ins Regal</h2>
+    <p class="vorspann vorspann--hell">Forschung und Entwicklung, Produktion und Verwaltung arbeiten seit 2006 unter einem Dach. Kurze Wege, schnelle Abläufe.</p>
+    <div class="linie__steuer">
+      <button type="button" class="rund" data-richtung="-1" aria-controls="linie-band"><span aria-hidden="true">←</span><span class="sr">Zurück</span></button>
+      <button type="button" class="rund" data-richtung="1" aria-controls="linie-band"><span aria-hidden="true">→</span><span class="sr">Weiter</span></button>
+    </div>
+  </div>
+  <div class="linie__band" id="linie-band" role="region" aria-label="Produktionsweg in sechs Stationen, waagerecht verschiebbar" tabindex="0">
+    <span class="linie__strang" aria-hidden="true"><span class="linie__fluss" id="linie-fluss"></span></span>
+    <ol class="stationen">
+      <li class="station zeigen"><span class="station__nr">01</span><h3>Rezeptur</h3><p>Aus dem eigenen Rezepturbestand oder nach Ihrer Vorgabe. Produktmanagement plant mit Ihnen Konzept, Packmittel und Layout.</p></li>
+      <li class="station zeigen"><span class="station__nr">02</span><h3>Labor</h3><p>Produktmuster, Stabilitätsprüfungen und Anwendungstests, sauber dokumentiert.</p></li>
+      <li class="station station--bild zeigen" aria-hidden="true"><img src="img/labor-800.jpg" width="800" height="533" loading="lazy" alt=""><span class="bildhinweis">Beispielbild</span></li>
+      <li class="station zeigen"><span class="station__nr">03</span><h3>Einwaage und Bulk</h3><p>Rohstoffe werden eingewogen und auf voll- und teilautomatisierten Anlagen zur Bulkware verarbeitet.</p></li>
+      <li class="station zeigen"><span class="station__nr">04</span><h3>Abfüllung</h3><p>In Tuben, Flaschen, Tiegel, Sticks oder Beutel, mit Inprozesskontrollen direkt an der Linie.</p></li>
+      <li class="station station--bild zeigen" aria-hidden="true"><img src="img/abfuellung-800.jpg" width="800" height="533" loading="lazy" alt=""><span class="bildhinweis">Beispielbild</span></li>
+      <li class="station zeigen"><span class="station__nr">05</span><h3>Konfektionierung</h3><p>Faltschachtel, Beipackzettel, Versandkarton, Palette.</p></li>
+      <li class="station zeigen"><span class="station__nr">06</span><h3>Ins Regal</h3><p>Aus dem Münsterland an Handel, Drogerien und Markenartikler in ganz Europa.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- WERK UND QUALITÄT: Datenblatt -->
+<section class="werk" id="werk" aria-labelledby="werk-titel">
+  <div class="rahmen werk__in">
+    <div class="werk__text">
+      <h2 id="werk-titel" class="titel">Ein Werk, ein Team, geprüfte Qualität</h2>
+      <p class="vorspann">PharCoNa ist familiengeführt. Rund 160 Menschen sorgen in Ahaus dafür, dass täglich Produkte das Lager verlassen.</p>
+      <figure class="werk__bild zeigen">
+        <img src="img/werk-ahaus.jpg" width="780" height="298" loading="lazy" alt="Das Firmengebäude der PharCoNa GmbH in Ahaus mit Verwaltungstrakt und Produktionshalle">
+        <figcaption>Benzstraße 1, Ahaus</figcaption>
+      </figure>
+    </div>
+    <div class="datenblatt zeigen" role="group" aria-labelledby="db-titel">
+      <p class="datenblatt__kopf" id="db-titel"><span>Datenblatt</span><span aria-hidden="true">PharCoNa GmbH</span></p>
+      <dl>
+        <div><dt>Gegründet</dt><dd>2004</dd></div>
+        <div><dt>Werk</dt><dd>Ahaus, in Betrieb seit Januar 2006</dd></div>
+        <div><dt>Unter einem Dach</dt><dd>Forschung und Entwicklung, Produktion, Verwaltung</dd></div>
+        <div><dt>Team</dt><dd>rund 160 Mitarbeitende</dd></div>
+        <div><dt>Bereiche</dt><dd>Kosmetik, Nahrungsergänzung, freiverkäufliche Arzneimittel</dd></div>
+        <div><dt>Kunden</dt><dd>Lebensmittelhandel, Drogeriemärkte, Markenartikler in ganz Europa</dd></div>
+        <div class="datenblatt__zert"><dt>Zertifiziert</dt><dd><strong>IFS Food</strong> (Version 8)<br><strong>GMP Food</strong><br><small>Zertifizierer: DQS</small></dd></div>
+        <div><dt>Prüfung</dt><dd>Inprozesskontrollen nach GMP, Freigabe von Rohstoffen und Fertigware, Rückverfolgbarkeit</dd></div>
+      </dl>
+      <p class="datenblatt__fuss">Zertifikate zum Herunterladen folgen im fertigen Auftritt.</p>
+    </div>
+  </div>
+</section>
+
+<!-- KARRIERE -->
+<section class="karriere" id="karriere" aria-labelledby="karriere-titel">
+  <div class="rahmen">
+    <div class="karriere__kopf">
+      <h2 id="karriere-titel" class="titel">Werde Teil des Teams in Ahaus</h2>
+      <p class="vorspann">13 offene Stellen, von der Abfüllung bis zum Key Account. Bewerben geht hier in zwei Minuten, auch ohne Anschreiben.</p>
+    </div>
+
+    <div class="filter" role="group" aria-label="Stellen filtern">
+      <button type="button" class="filter__knopf" aria-pressed="true" data-filter="alle">Alle <span>13</span></button>
+      <button type="button" class="filter__knopf" aria-pressed="false" data-filter="produktion">Produktion <span>6</span></button>
+      <button type="button" class="filter__knopf" aria-pressed="false" data-filter="labor">Labor und Qualität <span>3</span></button>
+      <button type="button" class="filter__knopf" aria-pressed="false" data-filter="buero">Büro und Vertrieb <span>3</span></button>
+      <button type="button" class="filter__knopf" aria-pressed="false" data-filter="ausbildung">Ausbildung <span>1</span></button>
+    </div>
+    <p class="sr" id="filter-status" aria-live="polite"></p>
+
+    <ul class="stellen" id="stellen">
+      <li class="stelle" data-gruppe="produktion">
+        <details>
+          <summary><span class="stelle__titel">Maschinenführer Abfüllung und Konfektionierung</span><span class="stelle__marken"><span>3 Schichten</span><span>30 Tage Urlaub</span></span></summary>
+          <div class="stelle__mehr">
+            <h4>Das machst du</h4>
+            <ul><li>Linien einrichten, steuern und optimieren</li><li>Produkt- und Prozesskontrollen dokumentieren</li><li>Team an der Anlage anleiten, Störungen beheben</li></ul>
+            <h4>Das bringst du mit</h4>
+            <ul><li>Erfahrung als Maschinenführer oder Ausbildung im technischen Bereich oder in der Lebensmittelbranche</li><li>Gutes Deutsch, Bereitschaft zur Schichtarbeit</li></ul>
+            <p class="stelle__plus">Sehr sauberes, hygienisches Arbeitsumfeld · gute Entwicklungsmöglichkeiten</p>
+            <div class="stelle__aktion"><button type="button" class="knopf knopf--klein" data-bewerben="Maschinenführer Abfüllung und Konfektionierung">Jetzt bewerben</button><a href="https://pharcona.de/content/Stellenausschreibung_Maschinenf%FChrer_Abf%FCllung_Konfektionierung_2026-10-21_online.pdf">Ausschreibung (PDF)</a></div>
+          </div>
+        </details>
+      </li>
+      <li class="stelle" data-gruppe="produktion">
+        <details>
+          <summary><span class="stelle__titel">Maschinenführer Herstellung und Fertigung</span><span class="stelle__marken"><span>3 Schichten</span><span>30 Tage Urlaub</span></span></summary>
+          <div class="stelle__mehr">
+            <h4>Das machst du</h4>
+            <ul><li>Anlagen für Nahrungsergänzung einrichten, inklusive Formatwechsel</li><li>Qualität und Hygiene sichern, Kontrollen dokumentieren</li><li>Abläufe verbessern, Störungen beheben</li></ul>
+            <h4>Das bringst du mit</h4>
+            <ul><li>Erfahrung als Maschinenführer oder technische Ausbildung oder Lebensmittelbranche</li><li>Handwerkliches Talent, Bereitschaft zur Schichtarbeit</li></ul>
+            <p class="stelle__plus">Sehr sauberes, hygienisches Arbeitsumfeld · gute Entwicklungsmöglichkeiten</p>
+            <div class="stelle__aktion"><button type="button" class="knopf knopf--klein" data-bewerben="Maschinenführer Herstellung und Fertigung">Jetzt bewerben</button><a href="https://pharcona.de/content/Stellenausschreibung_Maschinenf%FChrer_Herstellung_Fertigung_2026-10-21_online.pdf">Ausschreibung (PDF)</a></div>
+          </div>
+        </details>
+      </li>
+      <li class="stelle" data-gruppe="produktion">
+        <details>
+          <summary><span class="stelle__titel">Chemikant / Pharmakant</span><span class="stelle__marken"><span>Schicht</span><span>Bulk-Herstellung</span></span></summary>
+          <div class="stelle__mehr">
+            <h4>Das machst du</h4>
+            <ul><li>Rohstoffe einwiegen, Kosmetika, Arznei- und Nahrungsergänzungsmittel herstellen</li><li>Nach Herstell- und Arbeitsanweisung auf modernen Anlagen arbeiten</li><li>Dokumentation in enger Abstimmung mit der Qualitätskontrolle</li></ul>
+            <h4>Das bringst du mit</h4>
+            <ul><li>Ausbildung als Chemikant, Chemiefacharbeiter oder vergleichbar</li><li>Sinn für Hygiene und Qualität (GMP, HACCP, IFS)</li></ul>
+            <p class="stelle__plus">Flache Hierarchien · sicherer Arbeitsplatz</p>
+            <div class="stelle__aktion"><button type="button" class="knopf knopf--klein" data-bewerben="Chemikant / Pharmakant">Jetzt bewerben</button><a href="https://pharcona.de/content/Stellenausschreibung_PharconaGmbH_Chemikant_Pharmakant.pdf">Ausschreibung (PDF)</a></div>
+          </div>
+        </details>
+      </li>
+      <li class="stelle" data-gruppe="produktion">
+        <details>
+          <summary><span class="stelle__titel">Mitarbeiter Einwaage und Bulk-Herstellung</span><span class="stelle__marken"><span>Schicht</span><span>auch aus Bäckerei oder Molkerei</span></span></summary>
+          <div class="stelle__mehr">
+            <h4>Das machst du</h4>
+            <ul><li>Rohstoffe einwiegen und Bulkware herstellen</li><li>Anlagen und Räume hygienisch einwandfrei halten</li><li>Ideen für bessere Abläufe einbringen</li></ul>
+            <h4>Das bringst du mit</h4>
+            <ul><li>Ausbildung im Lebensmittelbereich, zum Beispiel Bäckerei, Fleisch- oder Milchverarbeitung</li><li>Hohes Hygiene- und Qualitätsbewusstsein</li></ul>
+            <p class="stelle__plus">Flache Hierarchien · sicherer Arbeitsplatz</p>
+            <div class="stelle__aktion"><button type="button" class="knopf knopf--klein" data-bewerben="Mitarbeiter Einwaage und Bulk-Herstellung">Jetzt bewerben</button><a href="https://pharcona.de/content/Stellenausschreibung_PharconaGmbH_Mitarbeiter%20Einwaage%20und%20Herstellung.pdf">Ausschreibung (PDF)</a></div>
+          </div>
+        </details>
+      </li>
+      <li class="stelle" data-gruppe="produktion">
+        <details>
+          <summary><span class="stelle__titel">Produktionshelfer, Abfüll- und Konfektionierungshelfer</span><span class="stelle__marken"><span>Quereinstieg</span><span>auch für Studierende</span></span></summary>
+          <div class="stelle__mehr">
+            <h4>Das machst du</h4>
+            <ul><li>Tuben, Flaschen und Verschlüsse auflegen, Magazine mit Faltschachteln füllen</li><li>Fertige Produkte verpacken und palettieren</li><li>Den Arbeitsplatz ordentlich und sauber halten</li></ul>
+            <h4>Das bringst du mit</h4>
+            <ul><li>Quereinsteiger, studentische Aushilfe oder erfahrene Kraft: jeder bekommt eine Chance</li><li>Teamgeist, Zuverlässigkeit, Bereitschaft zur Schichtarbeit</li></ul>
+            <p class="stelle__plus">Viele verschiedene Produkte · motiviertes Team</p>
+            <div class="stelle__aktion"><button type="button" class="knopf knopf--klein" data-bewerben="Produktionshelfer, Abfüll- und Konfektionierungshelfer">Jetzt bewerben</button><a href="https://pharcona.de/content/Stellenausschreibung_PharconaGmbH_Produktionshelfer_Abf%FCll-Konfektionierungshelfer.pdf">Ausschreibung (PDF)</a></div>
+          </div>
+        </details>
+      </li>
+      <li class="stelle" data-gruppe="produktion">
+        <details>
+          <summary><span class="stelle__titel">Mitarbeiter Reinigung (Spülküche)</span><span class="stelle__marken"><span>Früh, Spät, Nacht</span></span></summary>
+          <div class="stelle__mehr">
+            <h4>Das machst du</h4>
+            <ul><li>Formatteile der Fertigungs- und Abfüllanlagen in der modernen Spülküche reinigen</li><li>Hygiene- und Reinigungskonzept nach Vorgaben des Qualitätsmanagements umsetzen</li></ul>
+            <h4>Das bringst du mit</h4>
+            <ul><li>Erfahrung in der Reinigung in herstellenden Betrieben ist von Vorteil</li><li>Zuverlässigkeit, Bereitschaft zur Schichtarbeit</li></ul>
+            <p class="stelle__plus">Flache Hierarchien · sicherer Arbeitsplatz</p>
+            <div class="stelle__aktion"><button type="button" class="knopf knopf--klein" data-bewerben="Mitarbeiter Reinigung">Jetzt bewerben</button><a href="https://pharcona.de/content/Stellenausschreibung_Webseite_Mitarbeiter_Reinigung_vdraft.pdf">Ausschreibung (PDF)</a></div>
+          </div>
+        </details>
+      </li>
+      <li class="stelle" data-gruppe="labor">
+        <details>
+          <summary><span class="stelle__titel">Laborant Produktentwicklung Kosmetik</span><span class="stelle__marken"><span>Entwicklung</span></span></summary>
+          <div class="stelle__mehr">
+            <h4>Das machen Sie</h4>
+            <ul><li>Produktmuster für Kundenprojekte anmischen</li><li>Stabilitätsprüfungen und Anwendungstests durchführen und auswerten</li><li>Produktentwickler bei neuen Formulierungen unterstützen</li></ul>
+            <h4>Das bringen Sie mit</h4>
+            <ul><li>Ausbildung als Chemielaborant, CTA, Pharmakant, Kosmetiklaborant oder vergleichbar</li><li>Kenntnisse der EU-Kosmetikverordnung, gutes Englisch</li></ul>
+            <div class="stelle__aktion"><button type="button" class="knopf knopf--klein" data-bewerben="Laborant Produktentwicklung Kosmetik">Jetzt bewerben</button><a href="https://pharcona.de/content/Stellenausschreibung_Webseite_Laborant_Produktentwicklung_Kosmetik.pdf">Ausschreibung (PDF)</a></div>
+          </div>
+        </details>
+      </li>
+      <li class="stelle" data-gruppe="labor">
+        <details>
+          <summary><span class="stelle__titel">Mitarbeiter Qualitätsmanagement</span><span class="stelle__marken"><span>IFS, HACCP, GMP</span></span></summary>
+          <div class="stelle__mehr">
+            <h4>Das machen Sie</h4>
+            <ul><li>Produktionskontrollen, Reklamationen und Korrekturmaßnahmen</li><li>QM-Dokumente pflegen, Mitarbeitende schulen</li><li>Interne und externe Audits begleiten</li></ul>
+            <h4>Das bringen Sie mit</h4>
+            <ul><li>Ausbildung oder Studium in Lebensmittel, Kosmetik, Chemie oder vergleichbar</li><li>Kenntnisse in IFS Food / HPC, HACCP und GMP</li></ul>
+            <div class="stelle__aktion"><button type="button" class="knopf knopf--klein" data-bewerben="Mitarbeiter Qualitätsmanagement">Jetzt bewerben</button><a href="https://pharcona.de/content/Stellenausschreibung_Webseite_Mitarbeiter_Qualit%E4tsmanagement.pdf">Ausschreibung (PDF)</a></div>
+          </div>
+        </details>
+      </li>
+      <li class="stelle" data-gruppe="labor">
+        <details>
+          <summary><span class="stelle__titel">Mitarbeiter Qualitätssicherung, Inprozesskontrolle</span><span class="stelle__marken"><span>Vollzeit</span></span></summary>
+          <div class="stelle__mehr">
+            <h4>Das machst du</h4>
+            <ul><li>Inprozesskontrollen nach GMP, inklusive Probenzug und Dokumentation</li><li>Abweichungen erkennen und mit den Abteilungen klären</li><li>Prüfintervalle an den Anlagen überwachen</li></ul>
+            <h4>Das bringst du mit</h4>
+            <ul><li>Ausbildung im Produktionsumfeld, zum Beispiel Lebensmitteltechniker</li><li>Sorgfalt, Hygienebewusstsein, Lernbereitschaft</li></ul>
+            <div class="stelle__aktion"><button type="button" class="knopf knopf--klein" data-bewerben="Mitarbeiter Qualitätssicherung, Inprozesskontrolle">Jetzt bewerben</button><a href="https://pharcona.de/content/Stellenausschreibung_Webseite_IPK_vdraft_NEU.pdf">Ausschreibung (PDF)</a></div>
+          </div>
+        </details>
+      </li>
+      <li class="stelle" data-gruppe="buero">
+        <details>
+          <summary><span class="stelle__titel">(Junior) Key Account Manager</span><span class="stelle__marken"><span>Vollzeit</span><span>Vertrieb</span></span></summary>
+          <div class="stelle__mehr">
+            <h4>Das machen Sie</h4>
+            <ul><li>Key Accounts betreuen und weiterentwickeln</li><li>Kalkulationen, Jahresgespräche, Preis- und Vertragsverhandlungen</li><li>Neue Anfragen und Ausschreibungen bewerten</li></ul>
+            <h4>Das bringen Sie mit</h4>
+            <ul><li>Kaufmännische Ausbildung oder BWL-Studium, Erfahrung im Vertrieb, gern FMCG</li><li>Sicher mit Zahlen, sehr gutes Englisch</li></ul>
+            <div class="stelle__aktion"><button type="button" class="knopf knopf--klein" data-bewerben="(Junior) Key Account Manager">Jetzt bewerben</button><a href="https://pharcona.de/content/Stellenausschreibung_Webseite_(Junior)_Key_Account_Manager.pdf">Ausschreibung (PDF)</a></div>
+          </div>
+        </details>
+      </li>
+      <li class="stelle" data-gruppe="buero">
+        <details>
+          <summary><span class="stelle__titel">(Junior) Produktmanager</span><span class="stelle__marken"><span>Vollzeit</span><span>Handelsmarken</span></span></summary>
+          <div class="stelle__mehr">
+            <h4>Das machen Sie</h4>
+            <ul><li>Kunden aus Handelsmarken, Drogerien und Markenartikel betreuen</li><li>Projekte steuern: von der Produktidee bis zur Marktreife</li><li>Neue Produktideen entwickeln und beim Kunden vorstellen</li></ul>
+            <h4>Das bringen Sie mit</h4>
+            <ul><li>Kaufmännisch oder Lebensmitteltechnologie, Ökotrophologie</li><li>Organisationstalent, sehr gutes Englisch</li></ul>
+            <div class="stelle__aktion"><button type="button" class="knopf knopf--klein" data-bewerben="(Junior) Produktmanager">Jetzt bewerben</button><a href="https://pharcona.de/content/Stellenausschreibung_Webseite_(Junior)_Produktmanager_vfinal.pdf">Ausschreibung (PDF)</a></div>
+          </div>
+        </details>
+      </li>
+      <li class="stelle" data-gruppe="buero">
+        <details>
+          <summary><span class="stelle__titel">Mitarbeiter Arbeitsvorbereitung, Bedarfs- und Bestandsplanung</span><span class="stelle__marken"><span>Vollzeit</span></span></summary>
+          <div class="stelle__mehr">
+            <h4>Das machen Sie</h4>
+            <ul><li>Absatz- und Bedarfsprognosen für die Produktionsplanung</li><li>Lagerbestände, Rohstoffe und Packmittel planen</li><li>Schnittstelle zwischen Vertrieb, Einkauf und Produktion</li></ul>
+            <h4>Das bringen Sie mit</h4>
+            <ul><li>Kaufmännische oder technische Ausbildung</li><li>Gutes Zahlenverständnis, Excel, gern Erfahrung mit ERP wie Sage</li></ul>
+            <div class="stelle__aktion"><button type="button" class="knopf knopf--klein" data-bewerben="Mitarbeiter Arbeitsvorbereitung">Jetzt bewerben</button><a href="https://pharcona.de/content/Stellenausschreibung_Webseite_Mitarbeiter%20Arbeitsvorbereitung_vfinal.pdf">Ausschreibung (PDF)</a></div>
+          </div>
+        </details>
+      </li>
+      <li class="stelle stelle--azubi" data-gruppe="ausbildung">
+        <details>
+          <summary><span class="stelle__titel">Ausbildung Industriekaufmann/-frau</span><span class="stelle__marken"><span>Schwerpunkt Produktmanagement und Vertrieb</span></span></summary>
+          <div class="stelle__mehr">
+            <h4>Dein Weg durch alle Abteilungen</h4>
+            <ul><li>Marketing und Vertrieb: von der Produktidee bis zur Markteinführung</li><li>Einkauf, Logistik, Buchhaltung und Produktionsplanung</li></ul>
+            <h4>Warum PharCoNa</h4>
+            <ul><li>Produkte zum Anfassen, die später wirklich im Regal stehen</li><li>Sehr gute Übernahmechancen, offene Türen statt langer Dienstwege</li><li>Getränke gehen aufs Haus</li></ul>
+            <div class="stelle__aktion"><button type="button" class="knopf knopf--klein" data-bewerben="Ausbildung Industriekaufmann/-frau">Jetzt bewerben</button><a href="https://pharcona.de/content/Stellenausschreibung_neu_Ausbildung%20Industriekaufmann_2026-09-17.pdf">Ausschreibung (PDF)</a></div>
+          </div>
+        </details>
+      </li>
+    </ul>
+
+    <!-- Bewerbung -->
+    <div class="bewerbung" id="bewerbung">
+      <div class="bewerbung__text">
+        <h3 class="titel titel--klein">In zwei Minuten beworben</h3>
+        <p>Stelle wählen, Nummer oder Mailadresse dalassen, fertig. Lebenslauf und Zeugnisse kannst du mitschicken, musst du aber nicht.</p>
+        <p class="hinweis">Lieber per Mail? <a href="mailto:bewerbung@pharcona.de">bewerbung@pharcona.de</a></p>
+      </div>
+      <form class="formular" id="form-bewerbung" novalidate data-art="bewerbung">
+        <div class="feld">
+          <label for="b-stelle">Stelle</label>
+          <select id="b-stelle" name="stelle">
+            <option value="">Initiativbewerbung</option>
+            <optgroup label="Produktion">
+              <option>Maschinenführer Abfüllung und Konfektionierung</option>
+              <option>Maschinenführer Herstellung und Fertigung</option>
+              <option>Chemikant / Pharmakant</option>
+              <option>Mitarbeiter Einwaage und Bulk-Herstellung</option>
+              <option>Produktionshelfer, Abfüll- und Konfektionierungshelfer</option>
+              <option>Mitarbeiter Reinigung</option>
+            </optgroup>
+            <optgroup label="Labor und Qualität">
+              <option>Laborant Produktentwicklung Kosmetik</option>
+              <option>Mitarbeiter Qualitätsmanagement</option>
+              <option>Mitarbeiter Qualitätssicherung, Inprozesskontrolle</option>
+            </optgroup>
+            <optgroup label="Büro und Vertrieb">
+              <option>(Junior) Key Account Manager</option>
+              <option>(Junior) Produktmanager</option>
+              <option>Mitarbeiter Arbeitsvorbereitung</option>
+            </optgroup>
+            <optgroup label="Ausbildung">
+              <option>Ausbildung Industriekaufmann/-frau</option>
+            </optgroup>
+          </select>
+        </div>
+        <fieldset class="feld">
+          <legend>Ab wann? <span class="optional">(Angabe optional)</span></legend>
+          <div class="chips">
+            <label class="chip"><input type="radio" name="start" value="sofort"><span>sofort</span></label>
+            <label class="chip"><input type="radio" name="start" value="1-3 Monate"><span>in 1 bis 3 Monaten</span></label>
+            <label class="chip"><input type="radio" name="start" value="spaeter"><span>später</span></label>
+          </div>
+        </fieldset>
+        <div class="feld">
+          <label for="b-name">Name <span class="optional">(Angabe optional)</span></label>
+          <input id="b-name" name="name" type="text" autocomplete="name">
+        </div>
+        <div class="feld feld--paar">
+          <div>
+            <label for="b-tel">Telefon</label>
+            <input id="b-tel" name="tel" type="tel" autocomplete="tel" aria-describedby="b-rueck">
+          </div>
+          <div>
+            <label for="b-mail">E-Mail</label>
+            <input id="b-mail" name="mail" type="email" autocomplete="email" aria-describedby="b-rueck">
+          </div>
+        </div>
+        <p class="feldhilfe" id="b-rueck">Telefon oder E-Mail genügt, damit wir uns bei dir melden können.</p>
+        <div class="feld">
+          <label for="b-datei">Lebenslauf oder Zeugnisse <span class="optional">(Angabe optional)</span></label>
+          <input id="b-datei" name="datei" type="file" accept=".pdf,.jpg,.jpeg,.png,.doc,.docx" multiple>
+        </div>
+        <div class="feld">
+          <label for="b-text">Ein paar Sätze zu dir <span class="optional">(Angabe optional)</span></label>
+          <textarea id="b-text" name="text" rows="3"></textarea>
+        </div>
+        <p class="fehler" role="alert" hidden></p>
+        <button class="knopf" type="submit">Bewerbung abschicken</button>
+        <p class="demo">Entwurf, wird nicht versendet.</p>
+        <div class="erfolg" tabindex="-1" hidden>
+          <p class="erfolg__titel">Danke, deine Bewerbung ist angekommen.</p>
+          <p>In der fertigen Seite landet sie direkt bei der Personalabteilung. Du bekommst sofort eine Eingangsbestätigung und eine Rückmeldung, sobald jemand deine Unterlagen gelesen hat.</p>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ANFRAGE -->
+<section class="anfrage" id="anfrage" aria-labelledby="anfrage-titel">
+  <div class="rahmen anfrage__in">
+    <div class="anfrage__text">
+      <h2 id="anfrage-titel" class="titel titel--hell">Erzählen Sie uns von Ihrem Produkt</h2>
+      <p class="vorspann vorspann--hell">Ein paar Klicks genügen. Das Produktmanagement meldet sich mit Rückfragen und einem ersten Vorschlag.</p>
+      <div class="kontaktblock">
+        <p><a class="kontaktblock__tel" href="tel:+492561449520">02561 44952-0</a></p>
+        <p><a href="mailto:info@pharcona.de">info@pharcona.de</a></p>
+        <p>PharCoNa GmbH<br>Benzstraße 1<br>48683 Ahaus</p>
+        <p><a href="https://www.openstreetmap.org/search?query=Benzstra%C3%9Fe%201%2C%2048683%20Ahaus">Anfahrt auf der Karte</a></p>
+      </div>
+    </div>
+
+    <form class="formular formular--hell" id="form-anfrage" novalidate data-art="anfrage">
+      <fieldset class="feld">
+        <legend>Worum geht es?</legend>
+        <div class="chips">
+          <label class="chip"><input type="radio" name="weg" value="Neues Produkt entwickeln"><span>Neues Produkt entwickeln</span></label>
+          <label class="chip"><input type="radio" name="weg" value="Lohnherstellung nach Vorgabe"><span>Lohnherstellung nach Vorgabe</span></label>
+          <label class="chip"><input type="radio" name="weg" value="Bestehendes Produkt übernehmen"><span>Bestehendes Produkt verlagern</span></label>
+          <label class="chip"><input type="radio" name="weg" value="Allgemeine Frage"><span>Allgemeine Frage</span></label>
+        </div>
+      </fieldset>
+      <fieldset class="feld">
+        <legend>Bereich <span class="optional">(Angabe optional, mehrere möglich)</span></legend>
+        <div class="chips">
+          <label class="chip"><input type="checkbox" name="bereich" value="Kosmetik"><span>Kosmetik</span></label>
+          <label class="chip"><input type="checkbox" name="bereich" value="Nahrungsergänzung"><span>Nahrungsergänzung</span></label>
+          <label class="chip"><input type="checkbox" name="bereich" value="Freiverkäufliche Arzneimittel"><span>Freiverkäufliche Arzneimittel</span></label>
+          <label class="chip"><input type="checkbox" name="bereich" value="Sticks und Beutel"><span>Sticks und Beutel</span></label>
+        </div>
+      </fieldset>
+      <fieldset class="feld">
+        <legend>Für wen? <span class="optional">(Angabe optional)</span></legend>
+        <div class="chips">
+          <label class="chip"><input type="radio" name="kunde" value="Handelsmarke"><span>Handelsmarke</span></label>
+          <label class="chip"><input type="radio" name="kunde" value="Drogerie"><span>Drogerie</span></label>
+          <label class="chip"><input type="radio" name="kunde" value="Markenartikel"><span>Eigene Marke</span></label>
+          <label class="chip"><input type="radio" name="kunde" value="Sonstiges"><span>Sonstiges</span></label>
+        </div>
+      </fieldset>
+      <div class="feld">
+        <label for="a-menge">Geplante Erstauflage <span class="optional">(Angabe optional)</span></label>
+        <div class="regler">
+          <input id="a-menge" name="menge" type="range" min="0" max="5" step="1" value="2" aria-valuetext="10.000 bis 50.000 Stück">
+          <output id="a-menge-wert" for="a-menge">10.000 bis 50.000 Stück</output>
+        </div>
+      </div>
+      <div class="feld feld--paar">
+        <div>
+          <label for="a-firma">Firma <span class="optional">(Angabe optional)</span></label>
+          <input id="a-firma" name="firma" type="text" autocomplete="organization">
+        </div>
+        <div>
+          <label for="a-name">Name <span class="optional">(Angabe optional)</span></label>
+          <input id="a-name" name="name" type="text" autocomplete="name">
+        </div>
+      </div>
+      <div class="feld feld--paar">
+        <div>
+          <label for="a-mail">E-Mail</label>
+          <input id="a-mail" name="mail" type="email" autocomplete="email" aria-describedby="a-rueck">
+        </div>
+        <div>
+          <label for="a-tel">Telefon</label>
+          <input id="a-tel" name="tel" type="tel" autocomplete="tel" aria-describedby="a-rueck">
+        </div>
+      </div>
+      <p class="feldhilfe" id="a-rueck">E-Mail oder Telefon genügt.</p>
+      <div class="feld">
+        <label for="a-text">Ihr Vorhaben in ein paar Sätzen <span class="optional">(Angabe optional)</span></label>
+        <textarea id="a-text" name="text" rows="4"></textarea>
+      </div>
+      <p class="fehler" role="alert" hidden></p>
+      <button class="knopf knopf--hell" type="submit">Anfrage senden</button>
+      <p class="demo">Entwurf, wird nicht versendet.</p>
+      <div class="erfolg" tabindex="-1" hidden>
+        <p class="erfolg__titel">Danke, Ihre Anfrage ist angekommen.</p>
+        <p>In der fertigen Seite geht sie direkt an das Produktmanagement, sortiert nach Bereich und Vorhaben. Sie bekommen eine Bestätigung per Mail und eine persönliche Rückmeldung.</p>
+      </div>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="fuss">
+  <div class="rahmen fuss__in">
+    <div>
+      <p class="fuss__marke">PharCoNa GmbH</p>
+      <p>Pharmazie · Kosmetik · Nahrungsergänzung</p>
+      <p>Benzstraße 1, 48683 Ahaus<br>Telefon <a href="tel:+492561449520">02561 44952-0</a> · Fax 02561 44952-22<br><a href="mailto:info@pharcona.de">info@pharcona.de</a></p>
+    </div>
+    <nav aria-label="Weitere Seiten">
+      <ul>
+        <li><a href="#karriere">Karriere</a></li>
+        <li><a href="en.html" lang="en" hreflang="en">English</a></li>
+        <li><a href="impressum.html">Impressum</a></li>
+        <li><a href="datenschutz.html">Datenschutz</a></li>
+        <li><a href="barrierefreiheit.html">Barrierefreiheit</a></li>
+      </ul>
+      <button type="button" class="bewegung" id="bewegung" aria-pressed="false">Bewegung aus</button>
+    </nav>
+  </div>
+  <div class="rahmen fuss__entwurf">
+    <p>Unverbindlicher Entwurf von Leon Oßendorf, kein offizieller Auftritt der PharCoNa GmbH. Texte und Fakten stammen von pharcona.de und den Stellenausschreibungen (Stand 10.11.2026), das Werksfoto ebenfalls. Mit „Beispielbild“ markierte Fotos: Unsplash (Kate Laine; Trew). Formulare versenden nichts.</p>
+  </div>
+</footer>
+
+<script src="js/main.js?v=1" defer></script>
+</body>
+</html>
